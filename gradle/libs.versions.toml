@@ -2,8 +2,7 @@
 
 lifecycle = "2.8.4"
 
-androidPlugin = "8.5.2"
-kotlinPlugin = "1.9.22"
+androidPlugin = "9.3.0"
 
 [libraries]
 
@@ -22,4 +21,3 @@ google-material = { module = "com.google.android.material:material", version = "
 [plugins]
 
 android-application = { id = "com.android.application", version.ref = "androidPlugin" }
-kotlin = { id = "org.jetbrains.kotlin.android", version.ref = "kotlinPlugin" }
